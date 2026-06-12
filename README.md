@@ -26,9 +26,9 @@ Every design decision in this kit rolls up to that test. If a layer, skill, or t
 
 Three felt **success indicators** tell you the AIOS is actually changing how you work. Not KPIs — there's no objective metric. These are lived experiences that show up in your week.
 
-**1. Team-reaches-out:**
+**1. Someone-asks-you:**
 
-> *"A teammate messages you with a question. You realize your AIOS would answer it better, faster, and with exact sources — even if you were awake and free. So you ask your AIOS too. That's the moment you stop being a bottleneck for your own knowledge."*
+> *"Someone in your community asks you a question — about your game, your process, a decision you made. You realize your AIOS would answer it better, faster, and with exact sources than you could off the top of your head. So you ask your AIOS too. That's the moment you stop being a bottleneck for your own knowledge."*
 
 **2. Context-switching reduction:**
 
@@ -36,11 +36,11 @@ Three felt **success indicators** tell you the AIOS is actually changing how you
 
 **3. Knowledge-leaves-your-head:**
 
-> *"You stop trying to remember business facts. You don't rehearse what you decided last quarter or what your customer said in that meeting. You trust the retrieval. The AIOS holds the truth, you hold the questions."*
+> *"You stop trying to hold every detail in your head. You don't rehearse what you decided last month or what someone said in that Discord thread. You trust the retrieval. The AIOS holds the truth, you hold the questions."*
 
-**Personal foundation → company AI-readiness.** Once these indicators show up for one person, the same data architecture powers everything else. Custom dashboards on the data you already collect. Automations on top of the connections you already wired. Team rollout where everyone has theirs. *A company where every operator runs a personal AIOS is a company that's actually AI-ready.*
+**Personal foundation → everything builds on it.** Once these indicators show up, the same setup powers more of your world. Custom views on the data you already collect. Automations on top of the connections you already wired. New projects that plug straight into what you've built. *Get the personal foundation right and everything you make next stands on it.*
 
-The kit teaches personal AIOS first. Everything scales from there.
+The kit teaches the personal AIOS first. Everything scales from there.
 
 ---
 
@@ -67,7 +67,7 @@ Full breakdown in `references/3ms-framework.md`. The `/level-up` skill walks you
 | 1 | **Context** | Knows you and your work | Fresh Claude session answers "who is this person and what are they building?" without browsing |
 | 2 | **Connections** | Reaches your stuff | "What's on my calendar tomorrow and what tasks are due?" → live data, no paste |
 | 3 | **Capabilities** | Knows how to do the work | A short phrase triggers a multi-step workflow that produces an artifact |
-| 4 | **Cadence** | Runs without being asked | Laptop closed. A brief lands in the inbox. A teammate messages it and gets a real answer |
+| 4 | **Cadence** | Runs without being asked | Laptop closed. A brief lands in the inbox. Someone asks it a question and gets a real answer |
 
 **Brand line:** Context. Connections. Capabilities. Cadence.
 
