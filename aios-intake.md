@@ -46,7 +46,7 @@ Real targets for the next ~3 months, not someday-dreams. Things where, if they'r
 
 ## Q4 — How do you want your work to start earning, and what's the first step?
 
-Your work earning is something you're aiming at — let's name it. How do you want it to bring in money: selling what you make, ad/YouTube revenue, commissions, a store/platform (Gumroad, Etsy, Steam), tips/donations? And where would the money actually land (a store or platform, a payout account)? Then: what's the first small step toward it?
+Making money from your work is part of the plan — let's get specific. How do you want it to bring in money: selling what you make, ad/YouTube revenue, commissions, a store/platform (Gumroad, Etsy, Steam), tips/donations? Where would the money actually land (a store or platform, a payout account)? And what's the first small step you could take toward it — even something tiny?
 
 ```
 [Your answer here]
