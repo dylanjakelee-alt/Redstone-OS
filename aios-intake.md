@@ -66,7 +66,7 @@ Where you post, get feedback, and hang out: Discord, YouTube, Reddit, a forum, f
 
 ## Q6 — Where do your notes, tutorials, references, and project files live?
 
-Where your stuff lives: a folder on your desktop, Google Drive, Notion, OneNote, a notebook, bookmarked tutorials, a saved-videos playlist? Be honest even if the answer is "kind of everywhere."
+Where your stuff lives: a folder on your desktop, Google Drive, Notion, OneNote, a notebook, bookmarked tutorials, a saved-videos playlist? Include any notes from calls or meetings if you keep them (no worries if you don't). Be honest even if the answer is "kind of everywhere."
 
 ```
 [Your answer here]
