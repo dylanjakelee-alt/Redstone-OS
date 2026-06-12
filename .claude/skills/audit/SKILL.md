@@ -66,23 +66,23 @@ Don't penalize for non-canonical names if equivalent intent is captured elsewher
 
 A "reachable" connection counts via ANY mechanism: MCP, script, export pipeline, or `.env` key + `references/{tool}-api.md`. The kit is API-first; the audit doesn't prefer MCPs.
 
-**The 7 areas (match `connections.md`):**
+**The 7 domains (match `connections.md`):**
 
-| # | Area | Examples |
+| # | Domain | Examples |
 |---|---|---|
-| 1 | Communication | Discord, Gmail, Outlook, DMs |
-| 2 | Calendar & schedule | Google Cal, school calendar, deadlines, events |
-| 3 | Tasks & projects | Trello, Notion, a to-do app, GitHub issues |
-| 4 | Notes & knowledge | Notion, a notes app, saved tutorials/playlists, docs |
-| 5 | Files & assets | Drive, Dropbox, desktop folder, project files, art/audio |
-| 6 | Your craft & tools | Whatever you create with (game engine, DAW, design app, code editor); Git/GitHub or a cloud folder for saving work |
-| 7 | Sharing, community & earning | YouTube, Reddit, forums, Discord; a store/platform or payout someday |
+| 1 | Revenue / Financials | A store/platform payout, Stripe, PayPal, a spreadsheet (even if it's just starting) |
+| 2 | Customer interactions | A community, followers, buyers, DMs |
+| 3 | Calendar | Google Cal, Outlook, school/work calendar, deadlines, events |
+| 4 | Communication | Discord, Gmail, Outlook, Slack, DMs |
+| 5 | Project / task tracking | Trello, Notion, ClickUp, a to-do app, GitHub issues |
+| 6 | Meeting intelligence | Fireflies, Otter, Granola, Zoom (you may not have this yet) |
+| 7 | Knowledge / files | Drive, Notion, Dropbox, a desktop folder; notes, saved tutorials, docs, project files, art/audio |
 
 **Tier-2 (bonus):** AI service API keys (Anthropic, OpenRouter, OpenAI), decisions/history, publishing/content tools.
 
 | Criterion | Points | How to detect |
 |---|---|---|
-| Area coverage | 10 | 1.4 pts per area reachable. Round to nearest 0.5. Cap 10. |
+| Tier-1 domain coverage | 10 | 1.4 pts per tier-1 domain reachable. Round to nearest 0.5. Cap 10. |
 | Reference guide presence | 5 | -1 per connected tool with no `references/{tool}-api.md`. Floor 0. |
 | Auth / pipeline freshness | 5 | -1 per connection in `needs-auth`/`expired` state, or script with no run within 30 days. Floor 0. |
 | Documentation in `connections.md` | 3 | 0 if missing; 1 sparse; 2 most; 3 covers all reachable. |
@@ -109,9 +109,9 @@ A "reachable" connection counts via ANY mechanism: MCP, script, export pipeline,
 For each criterion that lost points: leverage = (points lost) × (impact multiplier).
 
 **Impact multipliers:**
-- 0 areas reachable: **4x** (AIOS can't reach anything you actually use)
+- 0 domains reachable: **4x** (AIOS can't reach anything you actually use)
 - Operating manual missing or thin: **3x** (foundation)
-- ≤2 areas reachable: **3x** (Connections is the gateway to live data)
+- ≤2 domains reachable: **3x** (Connections is the gateway to live data)
 - 0 skills: **2x** (no Capabilities = no AIOS)
 - No recurring trigger: **2x** (no Cadence = no autonomy)
 - All connections read-only: **2x** (viewer, not an OS)

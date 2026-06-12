@@ -9,7 +9,7 @@ Single combined wizard. Reads or writes `aios-intake.md` (the canonical intake),
 
 This AIOS belongs to **Matthew**, who's newer to AI — keep the tone warm and plain, define jargon the moment it comes up, and point him at `/explain` or `/start-here` if he seems lost. Greet him by name; don't ask "who are you" as a name question.
 
-**Discover his niche — never assume it.** Your job in this interview is to figure out *what Matthew is actually into and working on* from his answers, then set the whole system up around it. He could be into games, music, art, writing, video, a small business, anything — let it emerge from Q1/Q8 and tailor everything (examples, the closing, the connections areas) to *his* world. The system lives in the world of AI, not any one field.
+**Discover his niche — never assume it.** Your job in this interview is to figure out *what Matthew is actually into and working on* from his answers, then set the whole system up around it. He could be into games, music, art, writing, video, a small business, anything — let it emerge from Q1/Q8 and tailor everything (examples, the closing, the connections domains) to *his* world. The system lives in the world of AI, not any one field.
 
 **The wow moment:** at the end, suggest the closing prompt *"Try this — ask me: what should I work on this week?"* He runs it once. That's the wow. There's no `/today` skill to save — the prompt itself plants the Mindset framework (Default Shift) for him to internalize, pointed at whatever he's actually working on.
 
@@ -45,17 +45,17 @@ Also offer the shortcut: *"If you've used another AI chatbot or agent before, as
 **Q3 — What are your 2-3 biggest goals for the next 90 days?**
 Concrete ~3-month targets. Push gently if vague ("get good at my thing") — help him name something finishable, in whatever his field is: "finish my first project," "ship something small," "post 3 updates," "learn the basics of X."
 
-**Q4 — Do you want to earn from your work someday, and how?**
-"Not yet" is a fine answer. If yes: how (selling what he makes, ad/YouTube revenue, commissions, freelancing, donations) and where money would land (a store/platform, a payout account). Aspirational is fine. Maps to the Sharing, community & earning area in `connections.md`.
+**Q4 — How do you want your work to start earning, and what's the first step?**
+Earning is something he's aiming at now, not a someday. Capture how (selling what he makes, ad/YouTube revenue, commissions, a store/platform like Gumroad/Etsy/Steam, tips/donations), where the money would land (a store/platform, a payout account), and the first small step. Maps to the Revenue / Financials domain in `connections.md`.
 
 **Q5 — Where do you share your work and talk to people day-to-day?**
-Discord, YouTube, Reddit, forums, friends, DMs, email. Maps to the Communication + Sharing/community areas.
+Discord, YouTube, Reddit, forums, friends, DMs, email. Maps to the Customer interactions + Communication domains.
 
 **Q6 — Where do your notes, tutorials, references, and project files live?**
-Desktop folder, Drive, Notion, notebook, saved videos. Maps to the Notes & knowledge + Files & assets areas. "Kind of everywhere" is a real and useful answer.
+Desktop folder, Drive, Notion, notebook, saved videos, call/meeting notes. Maps to the Meeting intelligence + Knowledge / files domains. "Kind of everywhere" is a real and useful answer.
 
 **Q7 — What's the one thing that slows you down most, and where do you track what you're working on?**
-Capture top_pain (used later by `/level-up`) + where he tracks work (Tasks & projects area).
+Capture top_pain (used later by `/level-up`) + where he tracks work (Project / task tracking domain).
 
 **Q8 — What are you working on right now, and what are you using to do it?**
 Current project(s) + the tools/software/skills he uses or wants to learn (whatever fits his field — an app, a program, an instrument, a language, an engine), solo or with others. **This is where his niche becomes clear — get it specific, and let it shape how you talk to him from here on.**
@@ -71,11 +71,11 @@ Plain terms / redstone terms / both, plus any other games or hobbies to use as a
 Once the intake is complete, generate these files (or update if re-running). Back up originals to `archives/intake-{YYYY-MM-DD-HHMM}/` if any exist.
 
 1. **`context/about-me.md`** — from Q1 (who he is) + Q7 (what slows him down). One short paragraph each.
-2. **`context/about-craft.md`** — from Q8 (current project, engine/tools, solo/team) + Q4 (whether/how he wants to earn). What he's building, not a business.
+2. **`context/about-craft.md`** — from Q8 (current project, engine/tools, solo/team) + Q4 (how he wants it to earn). What he's building and where he wants to take it.
 3. **`context/priorities.md`** — from Q3. Numbered list, one line per goal — his concrete near-term targets.
 4. **`context/goals.md`** — from Q9. A short "How to keep me moving" profile: what motivates him, what stalls him, the working style that keeps him on track. The AIOS reads this to push him the right way. (His concrete targets live in `priorities.md`; this file is about *how* he works, not *what* he wants.)
 5. **`references/voice.md`** — from Q2. Paste samples verbatim with a short header ("Match this register when drafting; don't fake his voice on anything public — Discord post, video script, comment — without showing him first").
-6. **`connections.md`** — populate the 7-area table from Q4-Q8 answers (Q8 → the "Your craft & tools" area). Each row gets `mechanism: not yet connected`, `auth: —`, `last checked: —`. He wires connections later.
+6. **`connections.md`** — populate the 7-domain table from Q4-Q8 answers. Map: Q4 → Revenue / Financials; Q5 → Customer interactions + Communication (Calendar inferred from Q5); Q6 → Meeting intelligence + Knowledge / files; Q7 → Project / task tracking; Q8 → context/about-craft.md, with its tools also mapping into Knowledge / files or Project / task tracking. Each row gets `mechanism: not yet connected`, `auth: —`, `last checked: —`. He wires connections later.
 7. **`CLAUDE.md`** — fill all `{{...}}` placeholders. Substitute his name (Matthew), stated goal, voice register summary, a brief connections summary, AND record his Q10 learning preference into the teaching cues (e.g. "Matthew likes redstone analogies — offer them" or "keep it plain"). Preserve the teaching + momentum sections already in the template.
 
 ### Step 4: The closing screen
@@ -96,7 +96,7 @@ When Matthew runs the closing prompt ("what should I work on in my project this 
 - Each bullet ties back to a stated goal from Q3, motivating the way Q9 says he likes (small wins? a deadline? a nudge?)
 - Final line: *"If I had to pick one thing to do first, it'd be [X], because [reason from his goals]. Want me to break it into steps? And — where could AI actually help on this, instead of doing it all by hand?"*
 
-The closing question seeds the Mindset framework (Default Shift) before `/level-up` formally introduces it — pointed at his project, not a business.
+The closing question seeds the Mindset framework (Default Shift) before `/level-up` formally introduces it — pointed at whatever he's working on.
 
 ## Critical implementation rules
 

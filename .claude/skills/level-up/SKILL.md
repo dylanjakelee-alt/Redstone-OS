@@ -86,11 +86,12 @@ If the user can't articulate any of the five: *"If you can't explain it to a per
 **Default = lowest level that solves the problem.** Push back on L4 unless the user has explicitly run lower levels first. *"Workflows beat agents. If a decision doesn't HAVE to be made by AI, don't let AI make it."*
 
 **Step 5 — Tie it to something real.** Which of these does this move?
-- More reach (players, viewers, feedback)
+- More reach (people who play, watch, or use what you make; feedback)
 - Better work (more polish, fewer bugs, higher quality per hour)
 - Less friction (faster, less boring busywork, so you actually keep shipping)
+- More return (what your work brings in — sales, commissions, anything it earns)
 
-Plus a specific signal you'd notice (hours saved per week, things shipped, tasks cleared, less time stuck). **If Matthew can't name one, skill stops.** *"If it doesn't actually move your work forward, why build it?"*
+Plus a specific signal you'd notice (hours saved per week, things shipped, tasks cleared, money earned, less time stuck). **If Matthew can't name one, skill stops.** *"If it doesn't actually move your work forward, why build it?"*
 
 **Output of Phase 2:** scoped automation spec written to `decisions/log.md` as a dated entry with all five answers + autonomy level + KPI. Durable record of what was decided and why.
 

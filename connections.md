@@ -2,24 +2,24 @@
 
 Registry of every system this AIOS can reach — the "second brain's" wiring out to your real stuff. The more it can reach, the more it can actually do for you instead of just talk. Filled by `/onboard` from your Q4-Q8 answers; expanded over time as you wire new tools. `/audit` checks this for coverage and freshness. **Don't worry about wiring these on Day 1** — this is just the map of what you use. New to "connection" or "MCP"? Run `/explain`.
 
-| # | Area | Tool | Mechanism | Auth | Last checked |
+| # | Domain | Tool | Mechanism | Auth | Last checked |
 |---|---|---|---|---|---|
-| 1 | Communication | _filled by /onboard_ | not yet connected | — | — |
-| 2 | Calendar & schedule | _filled by /onboard_ | not yet connected | — | — |
-| 3 | Tasks & projects | _filled by /onboard_ | not yet connected | — | — |
-| 4 | Notes & knowledge | _filled by /onboard_ | not yet connected | — | — |
-| 5 | Files & assets | _filled by /onboard_ | not yet connected | — | — |
-| 6 | Your craft & tools | _filled by /onboard_ | not yet connected | — | — |
-| 7 | Sharing, community & earning | _filled by /onboard_ | not yet connected | — | — |
+| 1 | Revenue / Financials | _filled by /onboard_ | not yet connected | — | — |
+| 2 | Customer interactions | _filled by /onboard_ | not yet connected | — | — |
+| 3 | Calendar | _filled by /onboard_ | not yet connected | — | — |
+| 4 | Communication | _filled by /onboard_ | not yet connected | — | — |
+| 5 | Project / task tracking | _filled by /onboard_ | not yet connected | — | — |
+| 6 | Meeting intelligence | _filled by /onboard_ | not yet connected | — | — |
+| 7 | Knowledge / files | _filled by /onboard_ | not yet connected | — | — |
 
-**What each area means:**
-- **Communication** — where you talk to people: Discord, email, DMs.
-- **Calendar & schedule** — deadlines, school, events, anything time-based.
-- **Tasks & projects** — where you track what you're doing (an app, Trello/Notion, a notebook).
-- **Notes & knowledge** — your second brain's memory: notes, saved tutorials, references, docs.
-- **Files & assets** — where files live: Drive, desktop, project files, art/audio.
-- **Your craft & tools** — whatever you make things with (a game engine, a DAW, design software, a code editor, an instrument) and where your work is saved/backed up (Git/GitHub, a cloud folder).
-- **Sharing, community & earning** — where you post and get feedback (YouTube, Reddit, forums, Discord) and, someday, where you'd earn (a store or platform — Gumroad, Etsy, Patreon, Steam, etc.).
+**What each domain means:**
+- **Revenue / Financials** — where money from your work lands and how you track it: a store/platform payout, Stripe, PayPal, a spreadsheet. Even if it's just starting, this is where it'll go.
+- **Customer interactions** — the people who use, follow, or buy your work and where you talk with them: a community, followers, buyers, DMs.
+- **Calendar** — Google Cal, Outlook, school/work calendar, deadlines, events.
+- **Communication** — where you talk to people: Discord, Gmail, Outlook, Slack, DMs.
+- **Project / task tracking** — where you track what you're doing: Trello, Notion, ClickUp, a to-do app, GitHub issues.
+- **Meeting intelligence** — recordings and notes from calls or meetings: Fireflies, Otter, Granola, Zoom. You may not have this yet — that's fine.
+- **Knowledge / files** — notes, saved tutorials, docs, project files, art/audio: Drive, Notion, Dropbox, a desktop folder.
 
 **Mechanism options:** `mcp` (MCP server — a connector to an outside tool), `script` (a small program hitting an API, in `scripts/`), `export` (a CSV/JSON dump pipeline), `key+ref` (`.env` key + `references/{tool}-api.md` guide), `not yet connected`.
 

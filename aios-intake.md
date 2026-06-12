@@ -44,9 +44,9 @@ Real targets for the next ~3 months, not someday-dreams. Things where, if they'r
 
 ---
 
-## Q4 — Do you want to earn from your work someday, and how?
+## Q4 — How do you want your work to start earning, and what's the first step?
 
-No pressure if the answer is "not yet." If you do: how (selling what you make, YouTube/ad revenue, commissions, freelancing, donations), and where would the money actually land (a store or platform, a payout account, etc.)? Aspirational answers are fine.
+Your work earning is something you're aiming at — let's name it. How do you want it to bring in money: selling what you make, ad/YouTube revenue, commissions, a store/platform (Gumroad, Etsy, Steam), tips/donations? And where would the money actually land (a store or platform, a payout account)? Then: what's the first small step toward it?
 
 ```
 [Your answer here]
