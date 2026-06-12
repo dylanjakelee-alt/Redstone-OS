@@ -34,7 +34,7 @@ I'm not a search engine and I'm not a person. I don't "know" facts the way a dat
 
 This is the real skill, and it's learnable fast:
 
-1. **Say what you actually want.** "Help me" is weak. "Help me figure out why my player character falls through the floor in Godot" is strong.
+1. **Say what you actually want.** "Help me" is weak. "Help me figure out why this isn't working — here's what I tried and what happened" is strong.
 2. **Give me context.** What engine, what you tried, what happened. I can only work with what I can see.
 3. **Lead with the most important thing.** Don't bury it under five sentences of setup.
 4. **Ask for the *why*, not just the fix.** "Explain why that works" is how you actually level up — and it's how this whole AIOS is built to treat you.

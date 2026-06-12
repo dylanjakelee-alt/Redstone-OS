@@ -6,9 +6,9 @@ This sets up your **AI operating system** — a second brain that learns who you
 
 ---
 
-## Q1 — Who are you, what do you make (or want to make), and who's it for?
+## Q1 — Who are you, what do you make or do (or want to), and who's it for?
 
-You, what you create or want to create, and who it's for (players? yourself? a community?). A sentence or two each is plenty.
+You, the thing you create or work on (or want to), and who it's for — yourself, other people, a community, customers. Whatever your thing is: games, music, art, writing, a business, videos, code. A sentence or two each is plenty.
 
 ```
 [Your answer here]
@@ -18,7 +18,7 @@ You, what you create or want to create, and who it's for (players? yourself? a c
 
 ## Q2 — Paste 1-2 things you've written recently. Don't edit them.
 
-A text message, a Discord message, a post, a devlog, a comment, even a message you sent to another AI — anything that sounds like you when you're not trying. **Paste it raw, exactly as you sent it.** Don't type something fresh here — stuff you write while talking to me is already shaped by the chat, which throws off how I learn your voice. This one matters and can't be skipped: it's how I learn to actually sound like you.
+A text message, a Discord message, a post, a comment, even a message you sent to another AI — anything that sounds like you when you're not trying. **Paste it raw, exactly as you sent it.** Don't type something fresh here — stuff you write while talking to me is already shaped by the chat, which throws off how I learn your voice. This one matters and can't be skipped: it's how I learn to actually sound like you.
 
 **Shortcut:** if you've used another AI chatbot or agent before, ask it *"describe who I am, in as much detail as you can"* and paste its answer here too. The more context, the better I'll know you — be exhaustive, more is better.
 
@@ -34,7 +34,7 @@ A text message, a Discord message, a post, a devlog, a comment, even a message y
 
 ## Q3 — What are your 2-3 biggest goals for the next 90 days?
 
-Real targets for the next ~3 months, not someday-dreams. Things where, if they're not done by then, you'd be annoyed at yourself. Name something concrete — "finish a playable level," "ship a tiny game," "post 3 devlogs."
+Real targets for the next ~3 months, not someday-dreams. Things where, if they're not done by then, you'd be annoyed at yourself. Name something concrete — "finish my first project," "ship something small," "post 3 updates," "learn the basics of X."
 
 ```
 1. [Priority 1]
@@ -46,7 +46,7 @@ Real targets for the next ~3 months, not someday-dreams. Things where, if they'r
 
 ## Q4 — Do you want to earn from your work someday, and how?
 
-No pressure if the answer is "not yet." If you do: how (selling games, YouTube/ad revenue, commissions, donations), and where would the money actually land (a platform like Steam/itch.io, a payout account, etc.)? Aspirational answers are fine.
+No pressure if the answer is "not yet." If you do: how (selling what you make, YouTube/ad revenue, commissions, freelancing, donations), and where would the money actually land (a store or platform, a payout account, etc.)? Aspirational answers are fine.
 
 ```
 [Your answer here]
@@ -84,9 +84,9 @@ The biggest time-sink, blocker, or thing you keep putting off. Plus where you ke
 
 ---
 
-## Q8 — What are you making right now, and what are you building it with?
+## Q8 — What are you working on right now, and what are you using to do it?
 
-Your current project(s) — even small ones. What engine, tools, or languages you're using or want to learn (Godot, Unity, Unreal, Scratch, GameMaker, raw code, whatever). Working solo or with others?
+Your current project(s) — even small ones. The tools, software, or skills you're using or want to learn (whatever fits your thing — an app, a program, an instrument, a language, an engine). Working solo or with others?
 
 ```
 [Your answer here]

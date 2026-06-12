@@ -90,7 +90,7 @@ If the user can't articulate any of the five: *"If you can't explain it to a per
 - Better work (more polish, fewer bugs, higher quality per hour)
 - Less friction (faster, less boring busywork, so you actually keep shipping)
 
-Plus a specific signal you'd notice (hours saved per week, devlogs posted, bugs fixed, time-to-build). **If Matthew can't name one, skill stops.** *"If it doesn't actually move your project forward, why build it?"*
+Plus a specific signal you'd notice (hours saved per week, things shipped, tasks cleared, less time stuck). **If Matthew can't name one, skill stops.** *"If it doesn't actually move your work forward, why build it?"*
 
 **Output of Phase 2:** scoped automation spec written to `decisions/log.md` as a dated entry with all five answers + autonomy level + KPI. Durable record of what was decided and why.
 

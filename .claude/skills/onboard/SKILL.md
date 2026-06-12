@@ -7,9 +7,11 @@ description: Use on Day 1 of Matthew's AIOS install, when he says "set me up", "
 
 Single combined wizard. Reads or writes `aios-intake.md` (the canonical intake), conducts the 10-question interview if the file isn't filled, then scaffolds the Day-1 file set inline at the end of the run. No separate `/scaffold-from-intake` skill — this is one flow.
 
-This AIOS belongs to **Matthew** — an aspiring game developer who's newer to AI. Keep the tone warm and plain. Define any jargon the moment it comes up, and if he seems lost, point him at `/explain` or `/start-here`. He already has a name; greet him by it and don't ask "who are you" as a name question — Q1 is about what he makes, not what he's called.
+This AIOS belongs to **Matthew**, who's newer to AI — keep the tone warm and plain, define jargon the moment it comes up, and point him at `/explain` or `/start-here` if he seems lost. Greet him by name; don't ask "who are you" as a name question.
 
-**The wow moment:** at the end, suggest the closing prompt *"Try this — ask me: what should I work on in my project this week?"* He runs it once. That's the wow. There's no `/today` skill to save — the prompt itself plants the Mindset framework (Default Shift) for him to internalize, pointed at his project instead of a business.
+**Discover his niche — never assume it.** Your job in this interview is to figure out *what Matthew is actually into and working on* from his answers, then set the whole system up around it. He could be into games, music, art, writing, video, a small business, anything — let it emerge from Q1/Q8 and tailor everything (examples, the closing, the connections areas) to *his* world. The system lives in the world of AI, not any one field.
+
+**The wow moment:** at the end, suggest the closing prompt *"Try this — ask me: what should I work on this week?"* He runs it once. That's the wow. There's no `/today` skill to save — the prompt itself plants the Mindset framework (Default Shift) for him to internalize, pointed at whatever he's actually working on.
 
 ## When NOT to run this
 
@@ -34,17 +36,17 @@ Ask one at a time, in plain language. Write each answer into `aios-intake.md` as
 Identity, what he creates/wants to create, audience. A sentence or two each.
 
 **Q2 — Paste 1-2 things you've written recently. Don't edit them.**
-*This is the only question with a hard rule, and it cannot be skipped* — it's how the AIOS learns to sound like him. Voice samples MUST be pasted, not typed mid-conversation. Accept anything real: a text message, a Discord message, a post, a devlog, a comment, even a message he sent to another AI. If he starts typing fresh prose, refuse:
+*This is the only question with a hard rule, and it cannot be skipped* — it's how the AIOS learns to sound like him. Voice samples MUST be pasted, not typed mid-conversation. Accept anything real: a text message, a Discord message, a post, a comment, even a message he sent to another AI. If he starts typing fresh prose, refuse:
 
 > *"Hold on — paste it raw. If you type it here while we're talking, it's already shaped by our chat, and I'll learn the wrong voice. Grab a real text, Discord message, post, or comment and paste it exactly as you sent it. This is the one rule I can't bend — and I do need it, so don't skip it."*
 
 Also offer the shortcut: *"If you've used another AI chatbot or agent before, ask it 'describe who I am, in as much detail as you can' and paste its answer here too — the more it knows about you, the better I'll know you."* Encourage him to be exhaustive. Ask for at least two samples.
 
 **Q3 — What are your 2-3 biggest goals for the next 90 days?**
-Concrete ~3-month targets. Push gently if vague ("get good at game dev") — help him name something shippable: "finish a playable level," "release a tiny game," "post 3 devlogs."
+Concrete ~3-month targets. Push gently if vague ("get good at my thing") — help him name something finishable, in whatever his field is: "finish my first project," "ship something small," "post 3 updates," "learn the basics of X."
 
 **Q4 — Do you want to earn from your work someday, and how?**
-"Not yet" is a fine answer. If yes: how (selling games, YouTube, commissions, donations) and where money would land (Steam/itch.io, a payout account). Aspirational is fine. Maps to the Sharing, community & earning area in `connections.md`.
+"Not yet" is a fine answer. If yes: how (selling what he makes, ad/YouTube revenue, commissions, freelancing, donations) and where money would land (a store/platform, a payout account). Aspirational is fine. Maps to the Sharing, community & earning area in `connections.md`.
 
 **Q5 — Where do you share your work and talk to people day-to-day?**
 Discord, YouTube, Reddit, forums, friends, DMs, email. Maps to the Communication + Sharing/community areas.
@@ -55,8 +57,8 @@ Desktop folder, Drive, Notion, notebook, saved videos. Maps to the Notes & knowl
 **Q7 — What's the one thing that slows you down most, and where do you track what you're working on?**
 Capture top_pain (used later by `/level-up`) + where he tracks work (Tasks & projects area).
 
-**Q8 — What are you making right now, and what are you building it with?**
-Current project(s), engine/tools/languages (Godot, Unity, Unreal, Scratch, GameMaker, code), solo or with others. This is the heart of his AIOS — get it specific.
+**Q8 — What are you working on right now, and what are you using to do it?**
+Current project(s) + the tools/software/skills he uses or wants to learn (whatever fits his field — an app, a program, an instrument, a language, an engine), solo or with others. **This is where his niche becomes clear — get it specific, and let it shape how you talk to him from here on.**
 
 **Q9 — How do you best stay motivated and on track?**
 This is about *how he works*, not what he wants (that's Q3). What keeps him moving (deadlines, small wins, check-ins, streaks) and what makes him stall or lose interest. *This drives how the AIOS pushes him — it's the most important question for keeping him going, so capture it carefully.*
@@ -73,7 +75,7 @@ Once the intake is complete, generate these files (or update if re-running). Bac
 3. **`context/priorities.md`** — from Q3. Numbered list, one line per goal — his concrete near-term targets.
 4. **`context/goals.md`** — from Q9. A short "How to keep me moving" profile: what motivates him, what stalls him, the working style that keeps him on track. The AIOS reads this to push him the right way. (His concrete targets live in `priorities.md`; this file is about *how* he works, not *what* he wants.)
 5. **`references/voice.md`** — from Q2. Paste samples verbatim with a short header ("Match this register when drafting; don't fake his voice on anything public — Discord post, video script, comment — without showing him first").
-6. **`connections.md`** — populate the 7-area table from Q4-Q8 answers (Q8 → the Game project & tools area). Each row gets `mechanism: not yet connected`, `auth: —`, `last checked: —`. He wires connections later.
+6. **`connections.md`** — populate the 7-area table from Q4-Q8 answers (Q8 → the "Your craft & tools" area). Each row gets `mechanism: not yet connected`, `auth: —`, `last checked: —`. He wires connections later.
 7. **`CLAUDE.md`** — fill all `{{...}}` placeholders. Substitute his name (Matthew), stated goal, voice register summary, a brief connections summary, AND record his Q10 learning preference into the teaching cues (e.g. "Matthew likes redstone analogies — offer them" or "keep it plain"). Preserve the teaching + momentum sections already in the template.
 
 ### Step 4: The closing screen
@@ -81,9 +83,9 @@ Once the intake is complete, generate these files (or update if re-running). Bac
 Print one screen. Three lines max:
 
 ```
-✓ Day 1 done. Your AIOS knows who you are, what you're building, what you're aiming for, how you learn, and how you sound.
+✓ Day 1 done. Your AIOS knows who you are, what you're working on, what you're aiming for, how you learn, and how you sound.
 
-Today: ask me — "what should I work on in my project this week?"
+Today: ask me — "what should I work on this week?"
 This week: try /explain on anything that's fuzzy, and pick one thing from connections.md to set up.
 Day 7: run /audit to see how your setup scores.
 ```
@@ -99,7 +101,7 @@ The closing question seeds the Mindset framework (Default Shift) before `/level-
 ## Critical implementation rules
 
 1. **Keep it to the 10 questions.** Don't improvise an 11th mid-conversation — if more comes up, it goes in `context/` later, not the intake.
-2. **Voice paste cannot be skipped.** If Matthew types samples mid-chat, refuse and tell him to paste from real writing (a Discord message, devlog, post).
+2. **Voice paste cannot be skipped.** If Matthew types samples mid-chat, refuse and tell him to paste from real writing (a text, a Discord message, a post, a message he sent another AI).
 3. **One-shot scaffold.** After Step 2 ends, write Step 3 files in a single batch. No multi-turn confirmation. He iterates by editing `aios-intake.md` and re-running.
 4. **Idempotent.** Re-running with an edited intake refreshes context files; backs up originals to `archives/intake-{ts}/`. Skips questions already answered unless he wants to revise.
 5. **Closing screen is three lines.** Not a menu.

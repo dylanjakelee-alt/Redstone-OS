@@ -1,6 +1,6 @@
 # EXPANSIONS — what to add as you grow
 
-The kit ships lean on purpose. Five skills, a handful of folders, and the reference docs. That's it. As you use it, you'll outgrow the base — this guide tells you what to add, when, and why.
+The kit ships lean on purpose. Six skills, a handful of folders, and the reference docs. That's it. As you use it, you'll outgrow the base — this guide tells you what to add, when, and why.
 
 The AIOS structure should stay clean and well-run. Not a hoarder's basement.
 
@@ -15,7 +15,7 @@ The AIOS structure should stay clean and well-run. Not a hoarder's basement.
 | `decisions/log.md` | Append-only record of what was decided and why. |
 | `archives/` | Old files. Don't delete — move here. |
 | `connections.md` | Registry of every system your AIOS can reach. |
-| `.claude/skills/` | Your skills: `/start-here`, `/onboard`, `/explain`, `/audit`, `/level-up`. Add more via `/level-up`. |
+| `.claude/skills/` | Your skills: `/start-here`, `/onboard`, `/explain`, `/grill-me`, `/audit`, `/level-up`. Add more via `/level-up`. |
 | `aios-intake.md` | Source-of-truth for `/onboard`. Edit and re-run any time. |
 | `CLAUDE.md` | Root operating manual. Filled by `/onboard`. Edit when your role/voice changes. |
 
@@ -25,7 +25,7 @@ The AIOS structure should stay clean and well-run. Not a hoarder's basement.
 
 | Folder / file | Add when | Why |
 |---|---|---|
-| `Projects/<name>/` subfolders | You start a new game or project with its own context | `Projects/` already ships — give each project its own subfolder so its context stays separate from the evergreen `context/` files |
+| `Projects/<name>/` subfolders | You start a new project with its own context | `Projects/` already ships — give each project its own subfolder so its context stays separate from the evergreen `context/` files |
 | `templates/` | You catch yourself copy-pasting the same prompts or doc scaffolds | Reusable, parameterized starting points; reduces drift |
 | `brand-assets/` | You generate visual content (carousels, slides, thumbnails, images) | Centralizes logos, palettes, fonts, voice/tone — the AIOS reaches in instead of guessing |
 | `references/sops/` | You document how recurring processes run | Standard operating procedures the AIOS reads to run things consistently |

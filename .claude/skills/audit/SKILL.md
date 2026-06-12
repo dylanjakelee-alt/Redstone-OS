@@ -75,8 +75,8 @@ A "reachable" connection counts via ANY mechanism: MCP, script, export pipeline,
 | 3 | Tasks & projects | Trello, Notion, a to-do app, GitHub issues |
 | 4 | Notes & knowledge | Notion, a notes app, saved tutorials/playlists, docs |
 | 5 | Files & assets | Drive, Dropbox, desktop folder, project files, art/audio |
-| 6 | Game project & tools | Godot, Unity, Unreal, code; Git/GitHub for version control |
-| 7 | Sharing, community & earning | YouTube, Reddit, forums; Steam/itch.io/Patreon someday |
+| 6 | Your craft & tools | Whatever you create with (game engine, DAW, design app, code editor); Git/GitHub or a cloud folder for saving work |
+| 7 | Sharing, community & earning | YouTube, Reddit, forums, Discord; a store/platform or payout someday |
 
 **Tier-2 (bonus):** AI service API keys (Anthropic, OpenRouter, OpenAI), decisions/history, publishing/content tools.
 

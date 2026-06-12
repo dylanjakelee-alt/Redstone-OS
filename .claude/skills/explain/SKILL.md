@@ -1,6 +1,6 @@
 ---
 name: explain
-description: Use whenever Matthew asks what something means, says "explain", "ELI5", "I don't get it", "what is X", "how does X work", or hits any word/concept (AI, game dev, or this AIOS) he's unsure about. Plain-English, why-first explainer that can optionally re-explain in redstone (or his other) terms.
+description: Use whenever Matthew asks what something means, says "explain", "ELI5", "I don't get it", "what is X", "how does X work", or hits any word/concept (AI, his own field, or this AIOS) he's unsure about. Plain-English, why-first explainer that can optionally re-explain in redstone (or his other) terms.
 ---
 
 ## What this skill does
@@ -9,7 +9,7 @@ Explains any concept to Matthew so he actually *understands why it works* — no
 
 Works for three kinds of questions:
 1. **AI / this-AIOS concepts** — what's a prompt, a token, context, a skill, an agent, an MCP, a model, hallucination, etc.
-2. **Game-dev concepts** — engines, version control, game loops, sprites, colliders, whatever comes up.
+2. **Concepts from his own field** — whatever he's into (game dev, music, art, writing, code, business). Meet him in his world; use his actual project as the example.
 3. **Anything in this kit** — "what does /level-up do," "what's the 3Ms thing," "why is there a connections.md."
 
 ## How to explain (the structure)

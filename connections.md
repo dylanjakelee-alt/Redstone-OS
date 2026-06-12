@@ -9,7 +9,7 @@ Registry of every system this AIOS can reach — the "second brain's" wiring out
 | 3 | Tasks & projects | _filled by /onboard_ | not yet connected | — | — |
 | 4 | Notes & knowledge | _filled by /onboard_ | not yet connected | — | — |
 | 5 | Files & assets | _filled by /onboard_ | not yet connected | — | — |
-| 6 | Game project & tools | _filled by /onboard_ | not yet connected | — | — |
+| 6 | Your craft & tools | _filled by /onboard_ | not yet connected | — | — |
 | 7 | Sharing, community & earning | _filled by /onboard_ | not yet connected | — | — |
 
 **What each area means:**
@@ -18,8 +18,8 @@ Registry of every system this AIOS can reach — the "second brain's" wiring out
 - **Tasks & projects** — where you track what you're doing (an app, Trello/Notion, a notebook).
 - **Notes & knowledge** — your second brain's memory: notes, saved tutorials, references, docs.
 - **Files & assets** — where files live: Drive, desktop, project files, art/audio.
-- **Game project & tools** — what you build in (Godot, Unity, Unreal, code) and where it's saved (Git/GitHub).
-- **Sharing, community & earning** — where you post and get feedback (YouTube, Reddit, forums) and, someday, where you'd earn (Steam, itch.io, Patreon).
+- **Your craft & tools** — whatever you make things with (a game engine, a DAW, design software, a code editor, an instrument) and where your work is saved/backed up (Git/GitHub, a cloud folder).
+- **Sharing, community & earning** — where you post and get feedback (YouTube, Reddit, forums, Discord) and, someday, where you'd earn (a store or platform — Gumroad, Etsy, Patreon, Steam, etc.).
 
 **Mechanism options:** `mcp` (MCP server — a connector to an outside tool), `script` (a small program hitting an API, in `scripts/`), `export` (a CSV/JSON dump pipeline), `key+ref` (`.env` key + `references/{tool}-api.md` guide), `not yet connected`.
 

@@ -1,16 +1,16 @@
 # Redstone OS — Matthew's AI Operating System
 
-> **What this is, in one line:** a free, MIT-licensed starter kit (**AIS-OS** by Nate Herk), **enhanced and customized by Jake** specifically for **Matthew**, an aspiring game developer learning AI as he goes.
+> **What this is, in one line:** a free, MIT-licensed starter kit (**AIS-OS** by Nate Herk), **enhanced and customized by Jake** into an AIOS that adapts to whatever you do and evolves with you — set up for **Matthew** to start.
 
-Three layers, so nothing's confusing:
+It's not an AI course and it's not a niche tool. It's a personal **AI Operating System**: a second brain that learns who you are and what you're working on, then helps you think, decide, remember, and ship — and gets sharper the more it knows you. Three layers, so nothing's confusing:
 
-1. **The base kit — AIS-OS (free, MIT, by Nate Herk).** Turns Claude Code into a personal **AI Operating System (AIOS)**. Built for a general audience and pairs with a companion masterclass video. The license and the core frameworks (the Three Ms, the Four Cs) are Nate's and stay credited below.
-2. **Jake's enhancements.** Jake added a beginner-friendly teaching layer on top: a `/start-here` guided tour, an `/explain` skill (plain-English, with optional redstone analogies), an `ai-basics.md` primer, and a momentum/coaching focus for someone newer to AI.
-3. **Set up for Matthew.** This particular copy is themed for a game developer, not a business — onboarding, examples, and the connections registry all speak to making and shipping games.
+1. **The base kit — AIS-OS (free, MIT, by Nate Herk).** Turns Claude Code into a personal AIOS. Built for a general audience and pairs with a companion masterclass video. The license and the core frameworks (the Three Ms, the Four Cs) are Nate's and stay credited below.
+2. **Jake's enhancements.** Jake made it *adaptive and personal*: onboarding discovers your niche (whatever it is) and the system evolves with you instead of going stale. He also added a teaching layer for when AI is new — a `/start-here` tour, an `/explain` skill (plain-English, with optional analogies), and an `ai-basics.md` primer — available *when needed*, not the point.
+3. **Set up for Matthew.** This copy starts personalized for Matthew, who's into game dev and newer to AI. But nothing is hardcoded to games — onboarding adapts to whoever fills it out. A musician, writer, or founder who onboarded would get *their* world, pushed forward in *their* niche.
 
-The kit personalizes itself via the `/onboard` interview, gives you a `/start-here` tour and an `/explain` skill for when AI is new, then two recurring thinking skills (`/audit`, `/level-up`) to keep building momentum week over week.
+The kit personalizes itself via the `/onboard` interview, gives you a `/start-here` tour and an `/explain` skill for when AI is new, then two recurring thinking skills (`/audit`, `/level-up`) to keep building leverage week over week.
 
-> **AIS-OS** stands for **AI Automation Society OS** — the way Nate designed the original kit for members of his community, [AI Automation Society](https://www.skool.com/ai-automation-society). The base kit is universal; this copy has been adapted by Jake for Matthew's game-dev journey.
+> **AIS-OS** stands for **AI Automation Society OS** — the way Nate designed the original kit for members of his community, [AI Automation Society](https://www.skool.com/ai-automation-society). The base kit is universal; this copy is Jake's adaptive build, set up for Matthew to start.
 
 ---
 
@@ -77,7 +77,7 @@ Dependency graph: Context is non-skippable. Connections + Capabilities can build
 
 ---
 
-## What ships — 5 skills
+## What ships — 6 skills
 
 The kit is intentionally lean. Skills here are thinking tools and teaching tools, not heavy automations. You hack on top of the structure.
 
@@ -85,7 +85,8 @@ The kit is intentionally lean. Skills here are thinking tools and teaching tools
 |---|---|---|
 | `/start-here` | Guided tour (first session) | Your very first session. A slow, one-step-at-a-time walkthrough of the whole setup. |
 | `/onboard` | Setup wizard (one-time) | Day 1, immediately after the tour. 10-question interview. Generates Day-1 file set + fills `CLAUDE.md`. |
-| `/explain` | Teaching skill (anytime) | The moment any word or concept is fuzzy — AI, game dev, or this kit. Plain-English, optionally in redstone terms. |
+| `/explain` | Teaching skill (anytime) | The moment any word or concept is fuzzy — AI, your field, or this kit. Plain-English, optionally in analogies you pick. |
+| `/grill-me` | Capture skill (anytime) | When you want to stress-test a plan or get a fuzzy idea out of your head — relentless interview, saved to `brainstorms/`. |
 | `/audit` | Recurring thinking skill | Day 7, then weekly. Four-Cs gap report. Read-only. Watch the score climb. |
 | `/level-up` | Recurring thinking skill | Day 14, then weekly. Three Ms interview (Mindset → Method → Machine). One run = one shipped artifact. |
 
@@ -122,7 +123,8 @@ Redstone OS/
 │   └── redstone-model.md            ← Source for redstone analogies
 ├── decisions/
 │   └── log.md                       ← Append-only record of what was decided and why
-├── Projects/                        ← One folder per game or project
+├── brainstorms/                     ← Captured /grill-me sessions (one file per session)
+├── Projects/                        ← One folder per project
 ├── To-dos/                          ← Active task lists and next actions
 ├── archives/                        ← Old stuff. Don't delete. Move here.
 └── .claude/
@@ -130,6 +132,7 @@ Redstone OS/
         ├── start-here/SKILL.md
         ├── onboard/SKILL.md
         ├── explain/SKILL.md
+        ├── grill-me/SKILL.md
         ├── audit/SKILL.md
         └── level-up/SKILL.md
 ```
