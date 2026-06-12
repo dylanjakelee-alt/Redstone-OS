@@ -70,13 +70,13 @@ A "reachable" connection counts via ANY mechanism: MCP, script, export pipeline,
 
 | # | Area | Examples |
 |---|---|---|
-| 1 | Game project & engine | Godot, Unity, Unreal, GameMaker, Scratch, a code project |
-| 2 | Version control & backups | Git/GitHub, GitLab, a synced cloud folder |
-| 3 | Sharing & community | Discord, YouTube, Reddit, itch.io page, a forum |
-| 4 | Communication | Gmail, Outlook, DMs |
-| 5 | Task / project tracking | Trello, Notion, a to-do app, GitHub issues |
-| 6 | Knowledge & learning | Notion, Drive, a notes app, saved tutorials/playlists |
-| 7 | Money / earning (someday) | Steam, itch.io, Patreon, a payout account |
+| 1 | Communication | Discord, Gmail, Outlook, DMs |
+| 2 | Calendar & schedule | Google Cal, school calendar, deadlines, events |
+| 3 | Tasks & projects | Trello, Notion, a to-do app, GitHub issues |
+| 4 | Notes & knowledge | Notion, a notes app, saved tutorials/playlists, docs |
+| 5 | Files & assets | Drive, Dropbox, desktop folder, project files, art/audio |
+| 6 | Game project & tools | Godot, Unity, Unreal, code; Git/GitHub for version control |
+| 7 | Sharing, community & earning | YouTube, Reddit, forums; Steam/itch.io/Patreon someday |
 
 **Tier-2 (bonus):** AI service API keys (Anthropic, OpenRouter, OpenAI), decisions/history, publishing/content tools.
 

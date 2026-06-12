@@ -44,16 +44,16 @@ Also offer the shortcut: *"If you've used another AI chatbot or agent before, as
 Concrete ~3-month targets. Push gently if vague ("get good at game dev") — help him name something shippable: "finish a playable level," "release a tiny game," "post 3 devlogs."
 
 **Q4 — Do you want to earn from your work someday, and how?**
-"Not yet" is a fine answer. If yes: how (selling games, YouTube, commissions, donations) and where money would land (Steam/itch.io, a payout account). Aspirational is fine. Map to the Money/earning domain in `connections.md`.
+"Not yet" is a fine answer. If yes: how (selling games, YouTube, commissions, donations) and where money would land (Steam/itch.io, a payout account). Aspirational is fine. Maps to the Sharing, community & earning area in `connections.md`.
 
 **Q5 — Where do you share your work and talk to people day-to-day?**
-Discord, YouTube, Reddit, forums, friends, DMs, email. Map to the Sharing & community + Communication domains.
+Discord, YouTube, Reddit, forums, friends, DMs, email. Maps to the Communication + Sharing/community areas.
 
 **Q6 — Where do your notes, tutorials, references, and project files live?**
-Desktop folder, Drive, Notion, notebook, saved videos. Map to the Knowledge & files domain. "Kind of everywhere" is a real and useful answer.
+Desktop folder, Drive, Notion, notebook, saved videos. Maps to the Notes & knowledge + Files & assets areas. "Kind of everywhere" is a real and useful answer.
 
 **Q7 — What's the one thing that slows you down most, and where do you track what you're working on?**
-Capture top_pain (used later by `/level-up`) + where he tracks tasks (Task tracking domain).
+Capture top_pain (used later by `/level-up`) + where he tracks work (Tasks & projects area).
 
 **Q8 — What are you making right now, and what are you building it with?**
 Current project(s), engine/tools/languages (Godot, Unity, Unreal, Scratch, GameMaker, code), solo or with others. This is the heart of his AIOS — get it specific.
@@ -73,7 +73,7 @@ Once the intake is complete, generate these files (or update if re-running). Bac
 3. **`context/priorities.md`** — from Q3. Numbered list, one line per goal — his concrete near-term targets.
 4. **`context/goals.md`** — from Q9. A short "How to keep me moving" profile: what motivates him, what stalls him, the working style that keeps him on track. The AIOS reads this to push him the right way. (His concrete targets live in `priorities.md`; this file is about *how* he works, not *what* he wants.)
 5. **`references/voice.md`** — from Q2. Paste samples verbatim with a short header ("Match this register when drafting; don't fake his voice on anything public — Discord post, video script, comment — without showing him first").
-6. **`connections.md`** — populate the creator-themed table from Q4-Q8 answers. Each row gets `mechanism: not yet connected`, `auth: —`, `last checked: —`. He wires connections later.
+6. **`connections.md`** — populate the 7-area table from Q4-Q8 answers (Q8 → the Game project & tools area). Each row gets `mechanism: not yet connected`, `auth: —`, `last checked: —`. He wires connections later.
 7. **`CLAUDE.md`** — fill all `{{...}}` placeholders. Substitute his name (Matthew), stated goal, voice register summary, a brief connections summary, AND record his Q10 learning preference into the teaching cues (e.g. "Matthew likes redstone analogies — offer them" or "keep it plain"). Preserve the teaching + momentum sections already in the template.
 
 ### Step 4: The closing screen

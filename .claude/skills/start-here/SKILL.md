@@ -5,7 +5,9 @@ description: Use on Matthew's very first session, when he says "start", "where d
 
 ## What this skill does
 
-This is Matthew's front door. He's an aspiring game dev who's newer to AI, so this walks him in slowly and gets him to one real win — without dumping the whole system on him at once. **One step at a time. Wait for him at each step. Never paste the whole tour in one block.**
+This is Matthew's front door to his **AI operating system** — a second brain and thought partner that helps him think, remember, decide, and get things done. He's newer to AI, so this walks him in slowly and gets him to one real win — without dumping the whole system on him at once. **One step at a time. Wait for him at each step. Never paste the whole tour in one block.**
+
+Frame it as what it is: not a chatbot, not a game-dev tutor — *his* AI system. Game dev is his main thing right now, so the first win lands there, but make clear it's for everything he's working on.
 
 Tone: warm, encouraging, plain. Like a good tutorial that explains *why* each step matters, not just "click here." Celebrate small wins. Keep him moving.
 
@@ -14,7 +16,7 @@ Tone: warm, encouraging, plain. Like a good tutorial that explains *why* each st
 Greet him by name, say what this is in one sentence, then go step by step. Pause after each — ask if he's ready before continuing.
 
 **Step 0 — What this even is.**
-"This folder is your AI Operating System — a setup that makes me actually *yours*, instead of a blank chatbot. The more it knows about you and what you're building, the more useful I get. Takes about 10 minutes to set up. Ready?"
+"This is your AI Operating System — think of it as a second brain. It learns who you are and what you're working on, holds the stuff you'd otherwise have to remember, and helps you think, decide, and get things done faster. Not a blank chatbot — *yours*. Game dev's your main thing, so we'll start there, but it's for everything. Takes about 10 minutes to set up. Ready?"
 If AI itself is new to him, point at `references/ai-basics.md` first: "Want the 2-minute 'what is an AI' primer first, or jump in?"
 
 **Step 1 — Learn how to ask for help.**

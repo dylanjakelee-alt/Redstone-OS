@@ -1,6 +1,6 @@
 # Matthew's AIOS Intake
 
-This is the source-of-truth file for your AIOS, Matthew. Fill it in by typing, voice-pasting (dictation), or running `/onboard` for a guided conversation. Whichever mode, this file is what `/onboard` reads to set up your AIOS.
+This sets up your **AI operating system** — a second brain that learns who you are and what you're working on, so it can actually help you think, remember, and get things done (not just answer one-off questions). Fill it in by typing, voice-pasting (dictation), or running `/onboard` for a guided conversation. Whichever mode, this file is what `/onboard` reads to set you up.
 
 **10 quick questions.** Each answerable in under 60 seconds. Don't overthink it — answer rough, you can edit and re-run `/onboard` any time. New to any of this? Run `/start-here` first, or `/explain` whenever a word doesn't make sense.
 
